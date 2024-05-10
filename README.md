@@ -30,6 +30,12 @@ Lancer le server flask dans le fichier root du projet, vous pourrez le retrouver
 
 Une fois lancer, personnelement je suis sur mac vous pourrez aller sur le port 127.0.0.1:5000/redis, quoi vous affichera le contenue de votre redis 
 
+<img width="786" alt="Capture d’écran 2024-05-10 à 11 32 25" src="https://github.com/feur25/no-sql-redis/assets/39668417/243385cf-3cb8-4db6-b28d-17e63a65e9b2">
+
+
 pour incrémenter un nouvelle employee dans notre redis étant sur mac ou linux vous pourrez utiliser cette command :
     
     curl -X POST -H "Content-Type: application/json" -d '{"nom": "Guillaume", "poste": "Footballeur", "age": 25}' http://127.0.0.1:5000/employee
+
+<img width="562" alt="Capture d’écran 2024-05-10 à 11 32 04" src="https://github.com/feur25/no-sql-redis/assets/39668417/43cb803b-5476-408e-8a92-4ed5afba89b0">
+
