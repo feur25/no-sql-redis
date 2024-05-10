@@ -1,2 +1,4 @@
 redis-py-cluster
+redis
 flask
+flask-cors
