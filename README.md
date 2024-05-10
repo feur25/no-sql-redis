@@ -10,16 +10,26 @@
 
 # Pour se connecter au client Redis dans le cluster :
 
-docker exec -it docker-redis-cluster-redis1-1 redis-cli -c -h 173.17.0.2 -p 7000
+    docker exec -it docker-redis-cluster-redis1-1 redis-cli -c -h 173.17.0.2 -p 7000
 
 # Pour définir les informations de l'employé avec l'ID 1 :
 
-SET employe:1 '{"nom": "John Doe", "poste": "Développeur", "age": 30}'
+    SET employe:1 '{"nom": "John Doe", "poste": "Développeur", "age": 30}'
 
 # Pour obtenir les informations de l'employé avec l'ID 1 :
 
-GET employe:1
+    GET employe:1
 
 <img width="583" alt="Capture d’écran 2024-05-10 à 10 17 25" src="https://github.com/feur25/no-sql-redis/assets/39668417/e1d85fae-8691-4b4a-8a8d-c2f0cf00a86c">
 
 # Utilisation du server Flask (endpoint) :
+
+Lancer le server flask dans le fichier root du projet, vous pourrez le retrouver
+
+    python3 ./app.py
+
+Une fois lancer, personnelement je suis sur mac vous pourrez aller sur le port 127.0.0.1:5000/redis, quoi vous affichera le contenue de votre redis 
+
+pour incrémenter un nouvelle employee dans notre redis étant sur mac ou linux vous pourrez utiliser cette command :
+    
+    curl -X POST -H "Content-Type: application/json" -d '{"nom": "Guillaume", "poste": "Footballeur", "age": 25}' http://127.0.0.1:5000/employee
