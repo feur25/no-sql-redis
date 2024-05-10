@@ -39,3 +39,12 @@ pour incrémenter un nouvelle employee dans notre redis étant sur mac ou linux 
 
 <img width="562" alt="Capture d’écran 2024-05-10 à 11 32 04" src="https://github.com/feur25/no-sql-redis/assets/39668417/43cb803b-5476-408e-8a92-4ed5afba89b0">
 
+
+# Partie 4: Introspection sur l'Intégration de Redis
+
+Évaluation des Projets Actuels :
+
+Identifier des Projets Existants : J'ai examiné mes projets existants pour identifier ceux où l'intégration de Redis pourrait être bénéfique. Ces projets incluent mon système de gestion des sessions utilisateur, mon site e-commerce pour la gestion des articles, coupler à du firebase avec leurs système de stockage "firestore", mon application de chat en temps réel et ma plateforme de diffusion de contenu.
+
+Évaluer les Avantages Potentiels : Redis peut améliorer la réactivité de mes applications en stockant les sessions utilisateur en mémoire, accélérer les requêtes de base de données pour le chat en temps réel en utilisant des structures de données rapides telles que les listes et les ensembles, et optimiser la livraison de contenu en mettant en cache les données statiques.
+
