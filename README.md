@@ -22,3 +22,4 @@ GET employe:1
 
 <img width="583" alt="Capture d’écran 2024-05-10 à 10 17 25" src="https://github.com/feur25/no-sql-redis/assets/39668417/e1d85fae-8691-4b4a-8a8d-c2f0cf00a86c">
 
+# Utilisation du server Flask (endpoint) :
