@@ -1,5 +1,5 @@
 ### Travail en équipe avec :
-Giromagny Alexis / Pham Guillaume
+<span style="color: green"> Giromagny Alexis / Pham Guillaume </span>
 ### Lancement du docker redis
 
 1. Télécharger le projet `$ git clone https://github.com/feur25/no-sql-redis`
