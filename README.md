@@ -1,6 +1,6 @@
 ### Travail en équipe avec :
 ```diff
-Giromagny Alexis / Pham Guillaume
++ Giromagny Alexis / Pham Guillaume
 ```
 ### Lancement du docker redis
 
