@@ -27,6 +27,10 @@ $${\color{lightgreen}Giromagny \space Alexis / Pham \space Guillaume}$$
 
 # Utilisation du server Flask (endpoint) :
 
+Installer les dépendences nécessaires au bon déroullement du projet :
+    
+    pip3 install -r requirements.txt
+
 Lancer le server flask dans le fichier root du projet, vous pourrez le retrouver
 
     python3 ./app.py
