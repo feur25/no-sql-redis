@@ -1,4 +1,4 @@
-### $${\color{red}Travail en équipe avec :}$$
+### $${\color{red}Travail \space en \space équipe \space avec :}$$
 $${\color{lightgreen}Giromagny Alexis / Pham Guillaume}$$
 
 ### Lancement du docker redis
