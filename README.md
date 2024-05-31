@@ -1,5 +1,5 @@
 ### $${\color{red}Travail \space en \space équipe \space avec :}$$
-$${\color{lightgreen}Giromagny Alexis / Pham Guillaume}$$
+$${\color{lightgreen}Giromagny \space Alexis / Pham \space Guillaume}$$
 
 ### Lancement du docker redis
 
