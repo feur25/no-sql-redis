@@ -2,9 +2,10 @@
 $${\color{lightgreen}Giromagny \space Alexis / Pham \space Guillaume}$$
 
 ### Lancement du docker redis
-
+<p align="center">
 1. Télécharger le projet `$ git clone https://github.com/feur25/no-sql-redis`
 <img width="219" alt="Capture d’écran 2024-05-10 à 10 18 09" src="https://github.com/feur25/no-sql-redis/assets/39668417/cbeca091-2e74-446c-a064-1ed3c4855737">
+</p>
 
 2. `docker-compose build`
 3. `docker-compose up` ou `docker-compose up -d`
